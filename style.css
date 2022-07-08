@@ -1,0 +1,39 @@
+.background{
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0px;
+}
+.note{
+    color: rgb(255, 62, 62);
+}
+.divspeed{
+    float: left;
+}
+.divvolume{
+    float: right;
+}
+.divspeedimg,.divvolumeimg{
+    width: 200px;
+    border-radius: 100px;
+}
+#speed,#volume{
+    font-size: 20px;
+    margin: 15px;
+}
+.playbutton{
+    margin-top: 20px;
+    font-size: 25px;
+    width: 80px;
+}
+canvas{
+    border: 4px coral ridge;
+    border-radius: 40px;
+    margin-top: 50px;
+}
